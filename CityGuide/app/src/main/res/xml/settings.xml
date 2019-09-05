@@ -1,0 +1,123 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/pref_example_list_titles"
+            android:entryValues="@array/pref_example_list_values"
+            android:key="example_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_header_user_category"
+            android:summary="@string/pref_user_category"/>
+
+
+        <SwitchPreference
+            android:key="switch_preference"
+            android:title="@string/pref_header_route_preview"
+            android:summary="@string/pref_route_preview_summary"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/pref_distance_units_titles"
+            android:entryValues="@array/pref_distance_units_values"
+            android:key="distance_units_list"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/pref_header_distance_units"
+            android:summary="@string/pref_distance_units"/>
+
+
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/distance_pref_option_titles"
+            android:entryValues="@array/distance_pref_option_values"
+            android:key="distance_pref_option"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/distance_pref_option_header"
+            android:summary="@string/distance_pref_option_summary"/>
+
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/direction_pref_option_titles"
+            android:entryValues="@array/direction_pref_option_values"
+            android:key="direction_pref_option"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:title="@string/direction_pref_option_header"
+            android:summary="@string/direction_pref_option_summary"/>
+
+        <SwitchPreference
+            android:key="midpoints_preference"
+            android:title="@string/pref_header_midpoints"
+            android:summary="@string/pref_route_midpoints_summary"
+            android:defaultValue="true" />
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/step_size"
+            android:inputType="text"
+            android:key="step_size_int"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_title_step_size_cm"
+            android:title="@string/pref_title_step_size" />
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@integer/wma"
+            android:inputType="number"
+            android:key="wma_int"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_weighted_moving_average_summary"
+            android:title="@string/pref_weighted_moving_average" />
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@integer/first_threshold"
+            android:inputType="number"
+            android:key="first_threshold_int"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_first_threshold_summary"
+            android:title="@string/pref_first_threshold" />
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="5"
+            android:inputType="number"
+            android:key="timer"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_search_timer"
+            android:title="@string/pref_header_timer"/>
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@integer/pref_coverage"
+            android:inputType="number"
+            android:key="coverage_int"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_title_coverage_meters_summary"
+            android:title="@string/pref_title_coverage_meters" />
+
+        <EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@integer/gps_accuracy"
+            android:inputType="number"
+            android:key="accuracy_int"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/pref_title_accuracy_meters_summary"
+            android:title="@string/pref_title_accuracy_meters" />
+
+</PreferenceScreen>

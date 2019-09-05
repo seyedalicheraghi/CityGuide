@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">City Guide</string>
+    <string name="title_dashboard">Setting</string>
+    <string name="title_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">City Guide</string>
+    <string name="nav_header_subtitle">smartCityGuide.org</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="phone_settings">Phone Settings</string>
+    <string name="copyright">2018 Wichita State University. All Rights Reserved. </string>
+    <string name="current_direction">Current Direction</string>
+    <string name="navigation_logo">Navigation Logo</string>
+    <string name="guide_beacon">Smart City Guide</string>
+    <string name="copyright_logo">Copyright Logo</string>
+    <string name="please_select_your_input_preference">Please select your input preference</string>
+    <string name="list_of_nearby_locations">List of nearby locations</string>
+    <string name="keyboard">Keyboard</string>
+    <string name="voice">Voice</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="enable_route_preview">Enable route preview</string>
+    <string name="cognitive_impairments">Cognitive Impairments</string>
+    <string name="general_users">General Users</string>
+    <string name="others">Others</string>
+    <string name="blind_and_visually_impaired">Blind and Visually Impairments</string>
+    <string name="wheelchair">Mobility Impairments</string>
+    <string name="user_category">User category</string>
+    <string name="done">Done</string>
+    <string name="old_version">Old Version</string>
+    <string name="new_version">New Version</string>
+    <string name="version">Version</string>
+    <string name="outdoor_environment">Outdoor Environment</string>
+    <string name="indoor_environment">Indoor Environment</string>
+    <string name="navigation_environement">Navigation environement</string>
+    <string name="tab_text_1">Listboard</string>
+    <string name="tab_text_2">Keyboard</string>
+    <string name="tab_text_3">Voice Command</string>
+    <string name="speech_prompt">Say your destination please?</string>
+    <string name="speech_not_supported">There is a problem!</string>
+    <string name="title_activity_main_input">MainInput</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="advance_title_activity_settings">Advance Settings</string>
+
+
+
+    <!-- Strings related to user category -->
+    <string name="pref_user_interface">User Interface</string>
+    <string name="pref_header_user_category">User Category</string>
+    <string name="pref_user_category">Users in each category are expected to have different information needs. </string>
+
+    <!-- Strings related to user route preview -->
+    <string name="pref_header_route_preview">Turn route preview on or off</string>
+    <string name="pref_route_preview_summary">If kept on, at the beginning of the navigation of a
+        route you will be provided with a preview of the complete path from source to destination.</string>
+
+    <!--Strings related to GPS-->
+    <string name="pref_header_gps_settings">GPS Setting for outdoor navigation</string>
+
+    <integer name="pref_coverage">500</integer>
+    <string name="pref_title_coverage_meters">Searching Radius in Meters</string>
+    <string name="pref_title_coverage_meters_summary">This parameter defines the converge area to search a destination. For example if
+    you want to see all coffee shops within the radius of one kilometers and not any outside this radius you should assign one thousands as
+    the parameter.</string>
+    <string name="navigation_settings">Navigation Setting</string>
+    <string name="pref_search_timer">This option changes the searching time to get your location. A bigger number
+    gives the app more time to collect required information. For example if you are inside a building and try to search a location
+    outside the building, it is possible that your phone does not get enough time to acquire required information, if this
+        parameter assigned very low (you get a message if you want to wait or not).</string>
+    <string name="pref_header_timer">Timer in Seconds</string>
+
+    <integer name="gps_accuracy">5000</integer>
+    <string name="pref_title_accuracy_meters">GPS Accuracy</string>
+    <string name="pref_title_accuracy_meters_summary">This parameter define how much accuracy you prefer for outdoor navigation.
+        Very accurate satellite information can be achieved in locations where there is nothing around
+        to block line of sight between phone and satellites.</string>
+    <string name="pref_title_step_size_cm">This parameter is used to calculate number of steps for various distances. You can take one step and use a tape
+        measure to estimate your step size.</string>
+    <string name="pref_title_step_size">Step Size in Feet</string>
+    <string name="step_size">1.25</string>
+
+
+    <string name="distance_pref_option_header">Reference Distance Measurement</string>
+    <string name="distance_pref_option_summary">This option helps you have a better understanding about the distance between a location to another location.</string>
+
+    <string name="direction_pref_option_header">Orientation Preference</string>
+    <string name="direction_pref_option_summary">This option helps you about the direction that you need to take to reach a destination.</string>
+
+    <string name="pref_header_midpoints">Monitoring</string>
+    <string name="pref_route_midpoints_summary">This option gives details about your surrounding environment while you are walking to a destination.</string>
+
+    <string-array name="pref_example_list_titles">
+        <item>Difficulty Seeing</item>
+        <item>General User</item>
+        <item>Difficulty Moving</item>
+        <!--<item>Multiple Impairments</item>-->
+        <!--<item>Difficulty Reading, Writing, Spelling, Reasoning, Recalling and/or Organizing Information</item>-->
+
+    </string-array>
+
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <!--<item>4</item>-->
+        <!--<item>5</item>-->
+    </string-array>
+
+    <string name="pref_header_distance_units">Distance Measurement</string>
+    <string name="pref_distance_units">Preferred measurement units for use to convey distances.
+        User step sizes will be defined based on the unit system that you choose here.</string>
+
+    <string-array name="pref_distance_units_titles">
+        <item>Metric Units</item>
+        <item>US Customary Units</item>
+    </string-array>
+
+    <string-array name="pref_distance_units_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="distance_pref_option_titles">
+        <item>Distance</item>
+        <item>Number of Steps</item>
+    </string-array>
+
+    <string-array name="distance_pref_option_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="direction_pref_option_titles">
+        <item>Left, Right Notation</item>
+        <item>Clock Wise</item>
+        <!--<item>Keypad Notation (Currently Not Available)</item>-->
+    </string-array>
+
+    <string-array name="direction_pref_option_values">
+        <item>1</item>
+        <item>2</item>
+        <!--<item>3</item>-->
+    </string-array>
+
+    <string name="pref_weighted_moving_average">Weighted Moving Average</string>
+    <string name="pref_weighted_moving_average_summary">This must be between 3-5.</string>
+    <integer name="wma">5</integer>
+
+    <string name="pref_first_threshold">First Threshold</string>
+    <string name="pref_first_threshold_summary">The first threshold.</string>
+    <integer name="first_threshold">-80</integer>
+
+</resources>
